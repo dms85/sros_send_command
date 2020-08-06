@@ -1,0 +1,64 @@
+>>> Connected to Jump Host
+>>> Transport to Jump Host Established
+
+>>> Connected to: xxxx
+--- Executed Command: show system information
+===============================================================================
+System Information
+===============================================================================
+System Name            : LAB01
+System Type            : 7750 SR-7
+Chassis Topology       : Standalone
+System Version         : C-14.0.R17
+System Contact         : 
+
+
+<output omitted> 
+
+
+--- Executed Command: show router interface
+===============================================================================
+Interface Table (Router: Base)
+===============================================================================
+Interface-Name                   Adm       Opr(v4/v6)  Mode    Port/SapId
+   IP-Address                                                  PfxState
+-------------------------------------------------------------------------------
+upe-cluster                      Up        Up/Down     IES     1/1/6:100
+   192.168.20.253/24                                           n/a
+   192.168.10.253/24                                           n/a
+
+
+<output omitted> 
+
+
+
+>>> Disconnected from: xxxx
+
+
+
+>>> Connected to: yyyy
+--- Executed Command: show system information
+===============================================================================
+System Information
+===============================================================================
+System Name            : SDN-Nokia-vSR1
+
+
+<output omitted> 
+
+
+
+--- Executed Command: show router interface
+===============================================================================
+Interface Table (Router: Base)
+===============================================================================
+Interface-Name                   Adm       Opr(v4/v6)  Mode    Port/SapId
+   IP-Address                                                  PfxState
+-------------------------------------------------------------------------------
+system                           Up        Up/Down     Network system
+   1.1.1.1/32                                                  n/a
+
+
+<output omitted> 
+
+
